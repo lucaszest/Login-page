@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    background-color: gray;
+    display: flex;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.left-container {
+    width: 60%;
+    height: 100%;
+    background-image: url('./assets/bg-img.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.right-container {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.register {
+    color: #7C7C7C;
+    font-size: 12px;
+}
+
+.register a {
+    color: #9E3B3B;
+}
+
+p {
+    color: #7C7C7C;
+}
+
+h1 {
+    color: #9E3B3B;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-family: 'Kavivanar', cursive;
+}
+
+h1 img {
+    width: 44px;
+    height: 44px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input {
+    width: 230px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #7C7C7C;
+    padding-left: 46px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+}
+
+.left-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-icon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h2 {
+    text-align: center;
+    color: #7C7C7C;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #7c7c7c;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.checkbox-container .check {
+    width: 16px;
+    height: 16px;
+    border-color: #7C7C7C;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #9E3B3B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form a {
+    text-align: center;
+    color: #9E3B3B;
+    font-size: 12px;
+    padding-top: 12px;
+}
